@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperwalk - Pedestrian Tactics</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top-right">
+        <button id="toggle-colors">Light</button>
+    </div>
+    <div id="top-left">
+        <p>PT-F5</p>
+    </div>
+    <div id="bottom-right">
+        <p>©2024</p>
+    </div>
+    <div id="container">
+        <p class="h1 animated">Hyperwalk</p>
+        <div class="grid4">
+            <p>Manifesto and type specimen</p>
+            <p>Pedestrian Tactics<br />©2024</p>
+        </div>
+        <div class="spacer"></div>
+        <p class="caption">80 / 24pt</p>
+        <p class="b2">
+            Hyperwalk is a sans-serif typeface originally designed in two weights
+            and later adapted into a variable-weight font. The design began in 2018
+            by Dan Taylor and has been constantly refined since.
+        </p>
+        <div class="spacer"></div>
+        <div class="grid2">
+            <div>
+                <p class="caption">PT-F5 / 120 / 48pt</p>
+                <p class="h2" style="font-weight: 120;">Hyperwalk<br />110</p>
+            </div>
+            <div>
+                <p class="caption">PT-F5 / 80 / 48pt</p>
+                <p class="h2">Hyperwalk<br />80</p>
+            </div>
+        </div>
+        <div class="grid2">
+            <div>
+                <p class="caption">Body - 80 / 24pt</p>
+                <div>
+                    <p>
+                        Hyperwalk was initially designed as a typographical logo for
+                        the music and multimedia project Pedestrian Tactics.
+                    </p>
+                    <p>
+                        The limited character set was later refined to serve as
+                        headline text for the project's website and collateral.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <p class="caption">100 / 48pt</p>
+        <div class="inverse-container">
+            <p class="h2" style="font-weight: 100;">
+                <span>PT-T62</span> Ill Gates - <br />Animal (Pedestrian Tactics
+                Remix)
+            </p>
+        </div>
+        <div class="spacer"></div>
+        <div class="grid2">
+            <div></div>
+            <div>
+                <p>
+                    In 2023 the typeface was expanded further with a thorough
+                    kerning table, additional punctuation, and diacritics for other
+                    latin-based languages.
+                </p>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div class="grid2">
+            <div>
+                <p class="caption">120 / 128pt</p>
+                <p class="h1" style="font-weight: 120;">hypé</p>
+                <p class="caption">120 / 36pt</p>
+                <p class="b2" style="font-weight: 120; font-size: 36pt;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                    plebiscito decreta a senatu est consuli quaestio Cn. Possumusne
+                    ergo in vita summum bonum dicere, cum id ne in cena quidem posse
+                    videamur? Quod idem cum vestri faciant, non satis magnam
+                    tribuunt inventoribus gratiam.
+                </p>
+            </div>
+            <div>
+                <p class="caption">80 / 128pt</p>
+                <p class="h1" style="font-weight: 80;">hypé</p>
+                <p class="caption">110 / 36pt</p>
+                <p class="b2" style="font-weight: 80; font-size: 36pt;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quo
+                    plebiscito decreta a senatu est consuli quaestio Cn. Possumusne
+                    ergo in vita summum bonum dicere, cum id ne in cena quidem posse
+                    videamur? Quod idem cum vestri faciant, non satis magnam
+                    tribuunt inventoribus gratiam.
+                </p>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div>
+            <div class="grid4">
+                <div>
+                    <p class="caption">Size <span id="font-size-display">80</span>pt</p>
+                    <input
+                        class="slider"
+                        type="range"
+                        min="10"
+                        max="128"
+                        step="1"
+                        id="font-size-slider"
+                    />
+                </div>
+                <div>
+                    <p class="caption">Weight <span id="font-weight-display">80</span></p>
+                    <input
+                        class="slider"
+                        type="range"
+                        min="80"
+                        max="120"
+                        step="1"
+                        id="font-weight-slider"
+                    />
+                </div>
+                <div>
+                    <p class="caption">Letter spacing <span id="letter-spacing-display">0</span>em</p>
+                    <input
+                        class="slider"
+                        type="range"
+                        min="-0.06"
+                        max="0.15"
+                        step="0.01"
+                        id="letter-spacing-slider"
+                    />
+                </div>
+            </div>
+            <p
+                contenteditable="true"
+                spellcheck="false"
+                class="b2"
+                id="editable-content"
+                style="font-weight: 80; font-size: 80pt; letter-spacing: 0em; word-break: break-all;"
+            >
+                abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 (edit me)
+            </p>
+        </div>
+        <div class="spacer"></div>
+        <p class="caption">120 / 128pt / -0.05em</p>
+        <div class="inverse-container">
+            <p class="h1" style="font-weight: 120; font-size: 128pt;">Fuel Gauge →</p>
+        </div>
+        <div class="spacer"></div>
+        <p class="caption">120 / 64pt</p>
+        <p class="h2" style="font-weight: 120; font-size: 64pt;">WARNING:</p>
+        <p class="caption">100 / 24pt</p>
+        <p
+            class="b2"
+            style="font-weight: 100; font-size: 24pt; text-transform: uppercase;"
+        >
+            This product contains the chemical Methylethylkeocreaceratine which is
+            known by the state of California to cause uncontrollable cravings for
+            ramen. Please exercise caution when using this product.
+        </p>
+        <div class="spacer"></div>
+        <p class="caption">90 / 16pt</p>
+        <div class="grid2">
+            <div>
+                <p class="b2" style="font-size: 16pt;">
+                    If you're interested in using Hyperwalk or a customized version
+                    of Hyperwalk in your own applications please contact me for more
+                    information.
+                </p>
+            </div>
+            <div>
+                <p class="b2" style="font-size: 16pt;">
+                    <a href="http://instagram.com/pedestriantactics">Contact me</a> →
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript to handle interactivity
+        let isLightMode = true;
+
+        const toggleColorsButton = document.getElementById('toggle-colors');
+        const fontSizeSlider = document.getElementById('font-size-slider');
+        const fontWeightSlider = document.getElementById('font-weight-slider');
+        const letterSpacingSlider = document.getElementById('letter-spacing-slider');
+        const editableContent = document.getElementById('editable-content');
+
+        const fontSizeDisplay = document.getElementById('font-size-display');
+        const fontWeightDisplay = document.getElementById('font-weight-display');
+        const letterSpacingDisplay = document.getElementById('letter-spacing-display');
+
+        toggleColorsButton.addEventListener('click', () => {
+            if (isLightMode) {
+                document.documentElement.style.setProperty('--color-bg', 'black');
+                document.documentElement.style.setProperty('--color-fg', 'white');
+                toggleColorsButton.textContent = 'Dark';
+            } else {
+                document.documentElement.style.setProperty('--color-bg', 'white');
+                document.documentElement.style.setProperty('--color-fg', 'black');
+                toggleColorsButton.textContent = 'Light';
+            }
+            isLightMode = !isLightMode;
+        });
+
+        fontSizeSlider.addEventListener('input', (event) => {
+            const value = event.target.value;
+            fontSizeDisplay.textContent = value;
+            editableContent.style.fontSize = `${value}pt`;
+        });
+
+        fontWeightSlider.addEventListener('input', (event) => {
+            const value = event.target.value;
+            fontWeightDisplay.textContent = value;
+            editableContent.style.fontWeight = value;
+        });
+
+        letterSpacingSlider.addEventListener('input', (event) => {
+            const value = event.target.value;
+            letterSpacingDisplay.textContent = value;
+            editableContent.style.letterSpacing = `${value}em`;
+        });
+    </script>
+</body>
+</html>
